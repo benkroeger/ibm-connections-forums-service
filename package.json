@@ -1,0 +1,38 @@
+{
+  "name": "ibm-connections-forums-service",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "",
+  "repository": "benkroeger/ibm-connections-forums-service",
+  "author": {
+    "name": "Benjamin Kroeger",
+    "email": "benjamin.kroeger@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "ibm",
+    "connections"
+  ],
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^0.4.5"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "oniyi-http-client": "benkroeger/oniyi-http-client",
+    "oniyi-utils-xml": "^0.1.0"
+  }
+}
