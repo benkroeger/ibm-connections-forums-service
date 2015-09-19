@@ -32,6 +32,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
+    "lodash": "^3.10.1",
     "oniyi-http-client": "benkroeger/oniyi-http-client",
     "oniyi-utils-xml": "^0.1.0"
   }
